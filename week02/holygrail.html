@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />        
+        <title>Mickael Randriamihaja | Holy Grail layout example</title>
+        <meta name="description" content="A common layout example on the web called the 'holy grail' layout" />
+        <meta name="author" content="Mickael Randriamihaja" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+        <link rel="icon" href="favicon-48x48.png" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+            .madimi-one-regular {
+                font-family: "Madimi One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            body {
+                font-family: Roboto;
+            }
+
+            h1 {
+                font-family: "Madimi One";
+                text-align: center;
+            }
+
+            nav {    
+                padding:15px 10px;
+                background:#006eb6;
+            }
+
+            nav a {
+                padding: 15px 25px;
+                color:#FFFFFF;
+                text-decoration: none;    
+            }
+
+            nav a:hover {
+                color:#000000;
+                background:#ffc328;
+            }
+
+            h1 {
+                color:#006eb6;
+            }
+
+            main {
+                padding:4rem;
+            }
+
+            .source {
+                font-size:12px;
+            }
+
+            .blue {
+                color:#006eb6;
+            }
+
+            .yellow {
+                color:#ffc328;
+            }
+
+            footer {
+                text-align: center;
+            }
+
+            @media only screen and (max-width: 768px) {
+                .content-home {
+                    display:block;
+                }    
+                .thumb img {        
+                    text-align: center;
+                }
+                .content-home div {
+                    width: 100%;
+                }
+            }
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <h1>A Holy Grail Layout Example</h1>
+            <nav>
+                <a href="https://byui.edu">BYU-Idaho</a>
+                <a href="https://churchofjesuschrist.org">The Church</a>
+            </nav>
+        </header>
+        <main>            
+            <section>
+               <article>
+                    <h2>Our Focus is on You <span class="source blue">*</span></h2>
+                    <p>BYU-Idaho is focused on building disciples of Jesus Christ and helping you achieve your potential <span class="source">*</span>.</p>
+               </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Be Part of a Gospel-centered Tradition <span class="source blue">*</span></h2>
+                    <p>BYU-Idaho is a place to learn and grow in an uplifting environment.</p>
+                    <h3>Realize your potential</h3>
+                    <p>Become legendary in building others and adding value wherever you serve.</p>
+                </article>
+            </section>
+            <div>
+                <em><span class="source blue">*</span> Texte from BYUI, website: https://www.byui.edu/</em>
+            </div>
+        </main>
+        <aside>
+            <img src="https://churchofjesuschrist.org/imgs/f68d82f8e643ea1f4da8efef95ba855d92646ca6/full/1600%2C/0/default" width="200" alt="From Church Media Gallery." />
+        </aside>
+        <footer>
+            <p>
+                &copy; 2024 | Mickael's Github page - Made with ❤️ in Madagascar.
+            </p>
+        </footer>
+    </body>
+</html>
