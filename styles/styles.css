@@ -71,6 +71,8 @@ nav a:hover {
 }
 footer {
     text-align:center;
+    margin-top:15px;
+    border-top:1px solid #000000;    
 }
 blockquote {
     padding:25px 50px 25px 10px;
