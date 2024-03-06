@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <title>Mickael Randriamihaja | WDD 130</title>
+        <title>Mickael Randriamihaja Github Home page | WDD 130</title>
+        <meta name="description" content="Home page enhancement of Mickael Randriamihaja on Github for the assignement WDD130" />
+        <meta name="author" content="Mickael Randriamihaja" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
@@ -12,77 +14,7 @@
         <link rel="icon" href="favicon-48x48.png" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-
-            .madimi-one-regular {
-                font-family: "Madimi One", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-            }
-
-            body {
-                font-family: Roboto;
-            }
-            h1 {
-                font-family: "Madimi One";
-            }
-
-            nav {    
-                padding:15px 10px;
-                background:#000000;
-            }
-
-            nav a {
-                padding: 15px 25px;
-                color:#FFFFFF;
-                text-decoration: none;    
-            }
-
-            nav a:hover {
-                color:#000000;
-                background:#FFFFFF;
-            }
-
-            .profile-thumb {
-                border-radius:50%;
-                border:1px solid #000000;
-                padding:10px;
-            }
-
-            .content-home {
-                display:flex;
-                margin-left:25px;
-                margin-right:25px;
-            }
-            .thumb {
-                width:30%
-            }
-            .content-text {
-                width:70%;
-            }
-            footer {
-                text-align:center;
-            }
-            blockquote {
-                padding:25px 50px 25px 10px;
-            }
-            blockquote span {
-                font-style: italic;
-            }
-
-            @media only screen and (max-width: 768px) {
-                .content-home {
-                    display:block;
-                }    
-                .thumb img {        
-                    text-align: center;
-                }
-                .content-home div {
-                    width: 100%;
-                }
-            }
-        </style>
+        <link href="styles/styles.css" rel="stylesheet" type="text/css" />
         
     </head>
     <body>
@@ -95,12 +27,13 @@
         </header>
         <main>
             <h1>Mickael Randriamihaja, Student Bachelor's Computer science | WDD130</h1>
-            <section class="content-home">                
-                
+            <section class="content-home">
+                <h2>Mickael's profile</h2>
                 <div class="thumb">
                     <img src="images/profile.jpg" alt="Mickael Randriamihaja web developer" width="200" height="200" class="profile-thumb" />
                 </div>
                 <div class="content-text">
+                    <h3>Who am I?</h3>
                     <p>Hello!<br><br> I am <strong>Mickael H. Randriamihaja</strong>, I am from Antananarivo, Madagascar. I enjoy reading (technologies, sciences, DIY, home design, gardening, farming), playing football and chess, travel and admiring natures.</p>
                     <p>I also like programming and UI/UX design.</p>
                     <p>I currently pursue <strong>Bachelor's in Computer science</strong> <em>online studies</em> with <strong>BYU-Idaho</strong> through <strong>BYU-PathwayConnect Program</strong>.</p>                    
@@ -113,6 +46,13 @@
                 </div>
             </section>
         </main>
+        <aside>
+            <h2>Antananarivo, Madagascar</h2>
+            <img src="images/antananarivo-madagascar.jpg" alt="Antananarivo, capitale of Madagascar" width="200" />
+            <p>
+                Antananarivo, capitale and largest city of Madagascar. It sits at 1,280m above the sea level in the extreme center of the island.
+                <em>image: from 123Fr</em></p>
+        </aside>
         <footer>
             <p>
                 &copy; 2024 | Mickael's Github page - Made with ❤️ in Madagascar.
