@@ -1,4 +1,70 @@
-header, main, footer {
-    width: 840px;
+/* 
+ lightblue: #0091e7;
+ darkblue: #21075e;
+ orange: #f8750e;
+ yellow:#fff915
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --primary-color: #0091e7;
+    --secondary-color: #21075e;
+    --accent1-color: #f8750e;
+    --accent2-color: #fff915;
+    --heading-font: 'Monserrat', sans-serif;    
+    --paragraph-font: 'Monserrat', sans-serif;
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color: #FFFFFF;
+    --hav-hover-link-color: var(--primary-color);
+    --nav-hover-background-color:var(--accent2-color);
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width:960px;
     margin: 0 auto;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+.bg-primary {
+    background:var(--primary-color)
+}
+.bg-secondary {
+    background:var(--secondary-color);
+}
+.bg-accent1 {
+    background:var(--accent1-color);
+}
+.bg-accent2 {
+    background:var(--accent2-color);
+}
+.small-box {
+    display:inline-block;    
+    width:24px;
+    height:24px;
+}
+header {
+    padding:20px;
+    background-color: var(--primary-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--secondary-color);
+    font-size:1.2rem;
+    display:flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--accent1-color);
+}
+nav a:hover {
+    color:var(--accent2-color);
 }
