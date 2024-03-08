@@ -1,9 +1,3 @@
-/* 
- lightblue: #0091e7;
- darkblue: #21075e;
- orange: #f8750e;
- yellow:#fff915
-*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
     --primary-color: #0091e7;
