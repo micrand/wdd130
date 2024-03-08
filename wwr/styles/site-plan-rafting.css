@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --primary-color: #0091e7;
-    --secondary-color: #21075e;
-    --accent1-color: #f8750e;
-    --accent2-color: #fff915;
+    --primary-color: #072AC8;
+    --secondary-color: #1E96FC;
+    --accent1-color: #FCF300;
+    --accent2-color: #FFC600;
 
     --heading-font: 'Monserrat';    
     --paragraph-font: 'Monserrat';
 
-    --nav-background-color: #21075e;
+    --nav-background-color: #072AC8;
     --nav-link-color: #FFFFFF;
-    --hav-hover-link-color: #0091e7;
-    --nav-hover-background-color: #fff915;
+    --hav-hover-link-color: #FCF300;
+    --nav-hover-background-color: #1E96FC;
 }
 body {
     font-family: var(--paragraph-font);
