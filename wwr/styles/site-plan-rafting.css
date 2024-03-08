@@ -6,10 +6,10 @@
     --accent2-color: #fff915;
     --heading-font: 'Monserrat', sans-serif;    
     --paragraph-font: 'Monserrat', sans-serif;
-    --nav-background-color: var(--secondary-color);
+    --nav-background-color: #21075e;
     --nav-link-color: #FFFFFF;
-    --hav-hover-link-color: var(--primary-color);
-    --nav-hover-background-color:var(--accent2-color);
+    --hav-hover-link-color: #0091e7;
+    --nav-hover-background-color: #fff915;
 }
 body {
     font-family: var(--paragraph-font);
