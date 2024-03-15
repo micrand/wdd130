@@ -9,11 +9,13 @@ main {
     margin:0 auto;
 }
 main img {
+    float:right;
     width:150px;
     height:auto;
 }
 aside {
-    width:240px;
+    width:20rem;
+    text-align:center;
     margin:0;
     border:1px solid black;
     padding:5px 10px;
@@ -23,6 +25,11 @@ aside {
 aside img {
     width:200px;
     height:auto;
+}
+aside h2 {
+    position: absolute;
+    top:47px;
+    left:150px;
 }
 p {
     padding:0;
@@ -57,23 +64,14 @@ nav a:hover {
     background:#FFFFFF;
 }
 
-.profile-thumb {
-    border-radius:50%;
-    border:1px solid #000000;
-    padding:10px;
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 1rem;
+    background-color:#ddd;
+    color:#000;
 }
 
-.content-home {
-    display:flex;
-    margin-left:25px;
-    margin-right:25px;
-}
-.thumb {
-    width:30%
-}
-.content-text {
-    width:70%;
-}
 footer {
     text-align:center;
     margin-top:15px;
