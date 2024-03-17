@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: #072AC8;
+    --secondary-color: #1E96FC;
+    --accent1-color: #FCF300;
+    --accent2-color: #FFC600;
+
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Montserrat", sans-serif;
+
+    --nav-background-color: #072AC8;
+    --nav-link-color: #FFFFFF;
+    --hav-hover-link-color: #FCF300;
+    --nav-hover-background-color: #1E96FC;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width:960px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+.bg-primary {
+    background:var(--primary-color)
+}
+.bg-secondary {
+    background:var(--secondary-color);
+}
+.bg-accent1 {
+    background:var(--accent1-color);
+}
+.bg-accent2 {
+    background:var(--accent2-color);
+}
+.hero {
+    position:relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    
+}
+.hero article {
+    
+    
+}
