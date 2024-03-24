@@ -122,8 +122,11 @@ header img {
 .adventure .gallery {
     display: flex;
 }
-.gallery img {
+.gallery figure {
     width:20%;    
+}
+.gallery figure img {
+    width: 100%;
 }
 footer {
     display:grid;
