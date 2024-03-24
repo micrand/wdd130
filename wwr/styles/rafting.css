@@ -14,7 +14,11 @@
     --hav-hover-link-color: #FCF300;
     --nav-hover-background-color: #1E96FC;
 }
-
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body {
     font-family: var(--paragraph-font);
     max-width:960px;
@@ -25,6 +29,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color:var(--primary-color);
+}
+h2 {
+    text-align: center;
+}
+li {
+    list-style-type: none;
 }
 .bg-primary {
     background:var(--primary-color)
@@ -38,18 +48,91 @@ h1, h2, h3, h4, h5, h6 {
 .bg-accent2 {
     background:var(--accent2-color);
 }
+.mt-50 {
+    margin-top:50px
+}
+.mb-25 {
+    margin-bottom:25px;
+}
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;   
+    padding: 0 0 25px 0;        
+}
+header h1 {
+    line-height: 24px;
+}
+header img {
+    width: auto;
+    height:64px;
+}
+
+.navigation {
+    display: flex;
+}
+.navigation li {
+    flex:1 1 100%;
+    list-style: none;
+}
+.navigation a {
+    display: block;
+    padding: 20px;
+    color:var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    text-decoration: none;
+    text-align: center;
+}
+.navigation a:hover {
+    color:var(--accent2-color);
+    background-color: var(--nav-hover-background-color);
+}
+.orange {
+    color: var(--accent2-color);
+}
 .hero {
     position:relative;
+    background: var(--primary-color);    
+    color:#FFFFFF;
+}
+.hero a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.hero p {
+    padding: 10px;
 }
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: auto;    
 }
-.hero h1 {
-    
+.hero figcaption {
+    text-align: center;
+    background-color: var(--secondary-color);
 }
 .hero article {
-    
-    
+   padding: 25px 50px;    
+}
+
+.history {
+    border: 1px solid var(--secondary-color);
+    padding: 10px 20px;
+}
+.adventure .gallery {
+    display: flex;
+}
+.gallery img {
+    width:20%;    
+}
+footer {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+footer .social-links {
+    display:flex;    
+}
+footer .social-links li {
+    display: flex;
+    flex: 1 1 100%;
 }
