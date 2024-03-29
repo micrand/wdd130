@@ -35,6 +35,7 @@ form {
 }
 
 fieldset {
+    width:630px;
     border-color: var(--secondary-color);
 }
 
@@ -93,7 +94,7 @@ legend {
 }
 .form-input {    
     padding: 15px 25px;
-    width: 80%;
+    width: 520px;
 }
 .form-row {
 
