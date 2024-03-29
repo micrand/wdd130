@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <link href="styles/poll-form.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact information</legend>         
+                    <label for="fullname">Full name</label>           
+                    <input type="text" id="fullname" name="fullname" />
+
+                    <label for="useremail">Email</label>           
+                    <input type="email" id="useremail" name="useremail" />
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="Google Chrome">Google Chrome</option>
+                        <option value="Microsoft Edge">Microsoft Edge</option>
+                        <option value="Mozilla Firefox">Mozilla Firefox</option>                        
+                    </select>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet" />
+                    <label for="feedback">List the places you have lived</label>
+                    <textarea id="feedback" name="feedback" placeholder="New York, Idaho, Florida"></textarea>                    
+                </fieldset>
+                <button type="submit">
+                    Submit Poll
+                </button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy;2024 | HTML Form - User Poll Activity | Mickael Randriamihaja</p>
+        </footer>
+    </body>
+</html>

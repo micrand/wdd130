@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>WDD 130 | Course Home - Quizz Form</title>
+        <link href="styles/quizz.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="text-center p20">WDD 130 | Course Home - Quizz Form</h1>
+        </header>
+        <main>
+            <form class="bg-secondary p20">
+                <fieldset class="p10">
+                    <legend class="p10 fw"><input type="checkbox" name="basic" id="basic" class="form-input width-auto" /> Basic HTML and CSS Quizz</legend>         
+
+                    <div class="form-element p20">
+                        <label for="q1" class="mb10 d-block"><span class="number">1</span> What does the acronym CSS stands for?</label>           
+                        <input type="text" id="q1" name="q1" class="form-input" />
+                    </div>
+                    <div class="form-element p20">
+                        <label for="q2" class="mb10 d-block"><span class="number">2</span> How are id and class attributes selected in CSS?</label>
+                        <textarea id="q2" name="q2" placeholder="id=, class=" class="form-input"></textarea>                    
+                    </div>
+                    <div class="form-element p20">
+                        <label for="q3" class="mb10 d-block"><span class="number">3</span> Which of the following is  a valid CSS comment?</label>
+                        <select name="q3" id="q3" placeholder="Choose one" class="form-input">
+                            <option value="" selected disabled>Choose one</option>
+                            <option value="">/* Comment here */</option>
+                            <option value="">//</option>
+                            <option value="">< !-- -- ></option>
+                        </select>
+                    </div>
+
+                    <div class="form-element p20">
+                        <label for="q4" class="mb10 d-block"><span class="number">4</span> What is the bottom margin given this declaration?</label>           
+                        <input type="text" id="q4" name="q4" class="form-input" />
+                    </div>
+                </fieldset>
+              
+                <button type="submit" class="btn-primary p10 mt20 border-none">
+                    Submit Quizz
+                </button>
+            </form>
+        </main>
+        <footer class="mt20">
+            <p class="text-center">&copy;2024 | HTML Form - User Poll Activity | Mickael Randriamihaja</p>
+        </footer>
+    </body>
+</html>
