@@ -54,6 +54,12 @@ li {
 .p-20 {
     padding: 20px;
 }
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
 .mt-10 {
     margin-top: 10px;
 }
@@ -148,17 +154,20 @@ header img {
     display:flex;
 }
 label {
-    display: block;
-    width:100%;
+    
 }
 .form-row {
     display:block;
     width:100%;      
+    padding: 15px 20px;
 }
 .form-control {
     width: 100%;
     padding: 5px 20px;  
     border: 1px solid black;
+}
+.form-checkbox {
+    display: inline-block;
 }
 fieldset {
     border: 1px solid #000000;
@@ -171,6 +180,9 @@ legend {
     color:var(--nav-link-color);
     padding: 10px 25px;
     border: 1px solid var(--nav-background-color);
+}
+.company-info h2 {
+    border-bottom:1px solid var(--nav-background-color);
 }
 /* FOOTER */
 footer {
