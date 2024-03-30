@@ -48,11 +48,26 @@ li {
 .bg-accent2 {
     background:var(--accent2-color);
 }
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
 .mt-50 {
     margin-top:50px
 }
 .mb-25 {
     margin-bottom:25px;
+}
+.text-right {
+    float:right;
 }
 header {
     display: grid;
@@ -119,7 +134,7 @@ header img {
     border: 1px solid var(--secondary-color);
     padding: 10px 20px;
 }
-.adventure .gallery {
+.adventure .gallery, .employee .gallery {
     display: flex;
 }
 .gallery figure {
@@ -128,6 +143,36 @@ header img {
 .gallery figure img {
     width: 100%;
 }
+/* CONTACT INFORMATION */
+.contact-information {
+    display:flex;
+}
+label {
+    display: block;
+    width:100%;
+}
+.form-row {
+    display:block;
+    width:100%;      
+}
+.form-control {
+    width: 100%;
+    padding: 5px 20px;  
+    border: 1px solid black;
+}
+fieldset {
+    border: 1px solid #000000;
+}
+legend {
+    padding: 5px 10px;
+}
+.btn {
+    background-color: var(--nav-background-color);
+    color:var(--nav-link-color);
+    padding: 10px 25px;
+    border: 1px solid var(--nav-background-color);
+}
+/* FOOTER */
 footer {
     display:grid;
     grid-template-columns: 3fr 1fr;
