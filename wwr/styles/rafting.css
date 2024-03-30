@@ -184,6 +184,9 @@ legend {
 .company-info h2 {
     border-bottom:1px solid var(--nav-background-color);
 }
+.map {
+    border:0;
+}
 /* FOOTER */
 footer {
     display:grid;
