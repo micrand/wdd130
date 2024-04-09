@@ -20,10 +20,8 @@
     box-sizing: border-box;
 }
 body {
-    font-family: var(--paragraph-font);
-    max-width:960px;
-    margin: 0 auto;
-    padding: 20px;
+    font-family: var(--paragraph-font);    
+    margin: 0 auto;   
     line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -67,7 +65,7 @@ li {
     margin-top: 20px;
 }
 .mt-50 {
-    margin-top:50px
+    margin-top:50px;
 }
 .mb-25 {
     margin-bottom:25px;
@@ -75,14 +73,19 @@ li {
 .text-right {
     float:right;
 }
+.w-960 {
+    max-width: 960px;
+    margin: 0 auto;  
+}
 header {
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 320px 2fr;
     align-items: center;   
-    padding: 0 0 25px 0;        
+    padding: 25px 0 25px 0;
 }
 header h1 {
-    line-height: 24px;
+    font-size: 1.75rem;
+    line-height: auto;
 }
 header img {
     width: auto;
@@ -108,32 +111,44 @@ header img {
     color:var(--accent2-color);
     background-color: var(--nav-hover-background-color);
 }
-.orange {
+/* .orange {
     color: var(--accent2-color);
+} */
+.hero {        
+    margin-top: 50px;
 }
-.hero {
-    position:relative;
-    background: var(--primary-color);    
-    color:#FFFFFF;
-}
-.hero a {
-    color:#FFFFFF;
+.hero a {   
     text-decoration: none;
 }
 .hero p {
     padding: 10px;
 }
+.hero h1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: -80px;
+    color:#000000;
+}
 .hero img {
     display: block;
     width: 100%;
-    height: auto;    
+    height: 512px;    
+    background-size: cover;
+}
+.hero figcaption a {
+    color:#FFFFFF;
 }
 .hero figcaption {
-    text-align: center;
-    background-color: var(--secondary-color);
+    position: relative;
+    top: -240px;
+    text-align: center;    
+    width: 50%;
+    margin: 0 auto;
+    background-color:#000000;    
+    color:#FFFFFF;
+    padding: 25px 35px;
 }
-.hero article {
-   padding: 25px 50px;    
+.hero article {      
 }
 
 .history {
