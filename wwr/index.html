@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <title>Home Blue Orange Rafting Company</title>
-        <meta name="description" content="Home Blue Orange Rafting Company - WDD130" />
+        <title>Home Blue Water Rafting Company</title>
+        <meta name="description" content="Home Blue Water Rafting Company - WDD130" />
         <meta name="author" content="Mickael Randriamihaja" />
         
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -15,11 +15,10 @@
         
     </head>
     <body>
-        <header>
-            
-            <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/rafinglogo.png" alt="Rafting Site logo" />
-            <h1><span class="orange">B</span>lue <span class="orange">O</span>range <span class="orange">R</span>afting company</h1>
-            
+        <header class="w-960">            
+            <a href="index.html">
+                <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/rafinglogo.png" alt="Rafting Site logo" />
+            </a>
             <nav>
                 <ul class="navigation">
                     <li>
@@ -37,53 +36,100 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="home">            
             <div class="hero">                
                 <article>
+                    <h1>Blue Water Rafting</h1>
                     <figure>
-                        <img src="images/hero-happy-client.jpg" alt="Happy Client" />
-                        <figcaption>Happy client</figcaption>
+                        <img src="images/blue-water-rafting.jpeg" alt="Blue water Rafting" />
+                        <figcaption>
+                            Welcome to the Blue Water Company website, Be happy and explore new adventures on water with us.
+
+                            <div class="home-cta z-10 p-20 mt-50">
+                                <div>
+                                    <h3>Happy client be happy with<br> Water lorem ipsum dolor</h3>
+                                </div>
+                                <div>
+                                    <a href="trips.html" class="btn btn-primary btn-border relative text-center">
+                                        Contact us for details!
+                                    </a>
+                                </div>
+                            </div>
+                        </figcaption>
                     </figure>
-                    <p>Make client happy and memorize activities for long time<br />
-                        <a href="https://www.freepik.com/free-vector/customer-giving-quality-feedback_8270988.htm#query=happy%20customer&position=29&from_view=keyword&track=ais&uuid=ba2d8d0d-64b1-429b-b474-7be91b9b00fc">Image by pch.vector</a> on Freepik
-                    </p>
+                    
                 </article>                
             </div>
-            <section class="history mt-50">
-                <h2>History</h2>
-                
-                <p>
-                    With ten years of experience in the world of tourism and entertainment, the founders of Orange Blue rafting are experts in this field and plan to bring added value to different audiences.
-                </p>         
-                
+            <section class="home-trips pb-50 pt-50">
+                <h2>Overview trips with Blue Water Rafting</h2>
+                <p>Lorem ipusm dolor lorem ipusm dolor lorem ipsum dolor</p>
+                <div class="trip-gallery w-960 mt-50">
+                    <figure><img src="images/adventure-2.jpg" alt="Advanture 2" width="275" /></figure>
+                    <figure><img src="images/adventure-3.jpg" alt="Advanture 3" width="275" /></figure>
+                    <figure><img src="images/adventure-4.jpg" alt="Advanture 4" width="275" /></figure>
+                </div>
             </section>
-            <section class="adventure mt-50">
-                <h2>Adventure Awaits You!</h2>
-                <p>Adventures within everyone's reach, fun, sensation and dynamic activities</p>
-                <div class="gallery">
-                    <figure><img src="images/adventure-1.jpg" alt="Advanture 1" width="648" /></figure>
-                    <figure><img src="images/adventure-2.jpg" alt="Advanture 2" width="648" /></figure>
-                    <figure><img src="images/adventure-3.jpg" alt="Advanture 3" width="648" /></figure>
-                    <figure><img src="images/adventure-4.jpg" alt="Advanture 4" width="648" /></figure>
-                    <figure><img src="images/adventure-5.jpg" alt="Advanture 5" width="648" /></figure>
+            <section class="bloc-appeal w-960 mt-50 mb-20">
+                <h2 class="p-20">Adventure Awaits You!</h2>
+                <div class="grid-2">           
+                    
+                    <div>
+                        <figure>
+                            <img src="images/adventure-1.jpg" alt="Advanture 1" width="648" />
+                        </figure>
+                       
+                    </div> 
+                    <div class="gallery">
+                        <div>
+                            <h4>Live the adventure on water</h4>
+                            <p>Adventures within everyone's reach, fun, sensation and dynamic activities</p>
+                            <p>Adventures within everyone's reach, fun, sensation and dynamic activities</p>
+                            <p>Adventures within everyone's reach, fun, sensation and dynamic activities</p>
+                            <p>Adventures within everyone's reach, fun, sensation and dynamic activities</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter-container mt-50">
+                <h2 class="p-20">Subscribe to our newsletter</h2>
+                <p class="p-20">Get connected with us</p>
+                <div class="newsletter pb-50">
+                    <form class="form-newsletter">
+                        <label for="name">
+                            <input type="text" name="name" id="name" placeholder="Your Name" class="form-input" />
+                        </label>
+                        <label for="email">
+                            <input type="email" name="email" placeholder="Email address" class="form-input" />
+                        </label>
+                        <input type="submit" value="Subscribe !" class="btn btn-primary" />
+                    </form>
+
                 </div>
             </section>
         </main>
-        <footer class="mt-50">
-            <p>©2024 🌴 Rafting Site plan 🌴 Mickael Randriamihaja 🌴 WDD 130</p>
-            <nav>
-                <ul class="social-links">
-                    <li>
-                        <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook" width="32" /></a>             
-                    </li>
-                    <li>
-                        <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter" width="32" /></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com"><img src="images/instagram.svg" alt="Facebook" width="32" /></a>
-                    </li>
-                </ul>
-            </nav>
+        <footer>
+            <div class="w-960 prelinks p-20">
+                <a href="index.html">Home</a> | 
+                <a href="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-home.png" target="_blank">Wireframe home page</a> | 
+                <a href="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-aboutus-update.png">Wireframe About Us</a> | 
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="container w-960 border-light">
+                <p>©2024 🌴 Rafting Site plan 🌴 Mickael Randriamihaja 🌴 WDD 130</p>
+                <nav>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" width="32" /></a>             
+                        </li>
+                        <li>
+                            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" width="32" /></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com"><img src="images/instagram.png" alt="Facebook" width="32" /></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
         
     </body>

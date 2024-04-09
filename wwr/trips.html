@@ -15,11 +15,11 @@
         
     </head>
     <body>
-        <header>
-            
-            <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/rafinglogo.png" alt="Rafting Site logo" />
-            <h1><span class="orange">B</span>lue <span class="orange">O</span>range <span class="orange">R</span>afting company</h1>
-            
+        <header class="w-960">
+            <a href="index.html">
+                <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/rafinglogo.png" alt="Rafting Site logo" />
+            </a>
+
             <nav>
                 <ul class="navigation">
                     <li>
@@ -38,31 +38,134 @@
             </nav>
         </header>
         <main>
-            
-            <section class="cta-contact">
+            <div class="hero">
+                <h1>Blue Water Rafting</h1>
+                <article>
+                    <figure>
+                        <img src="images/blue-rafting-canoes.jpg" alt="Blue Rafting Canoes" />
+                        <figcaption>
+                            Blue Water Rafting on Canoes, various trip itineraries with high adventures for all<br><br>
+                            <a href="contact.html" class="btn btn-primary btn-border">Contact us</a>
 
+                        </figcaption>
+                    </figure>                    
+                </article>  
+            </div>
+            
+            <section class="trips w-960 mt-50 mb-20">
+                <h2>Large trips circuits</h2>
+                <div class="trips-content item-1 p-20 mb-25">    
+                    <div class="p-20">
+                        <h4>Discover Mountain hike rafting</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim risus vitae tellus feugiat, 
+                            sit amet molestie nibh congue. Quisque imperdiet nisi mollis suscipit aliquet. 
+                            Phasellus a hendrerit orci. 
+                            <br><br>
+                            <a href="contact.html" class="btn btn-primary btn-border mt-50">Book trip</a>
+                        </p>    
+                    </div>   
+                    <figure>
+                        <img src="images/adventure-2.jpg" alt="Rafting company trip 2" width="350" />
+                        <figcaption>
+                            Mountain hike rafting
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="trips-content item-2 p-20 mb-25">    
+                    <div class="p-20">
+                        <h4>Discover Hot South rafting</h4>
+                        <p>Suspendisse ut odio congue, dapibus diam id, porta elit. Cras varius neque eu est placerat viverra. 
+                            Sed ac odio a enim pellentesque ullamcorper. 
+                            Nullam in mattis eros, nec posuere neque.
+                            <br><br>
+                            <a href="contact.html" class="btn btn-primary btn-border mt-50">Book trip</a>
+                        </p>    
+                    </div>   
+                    <figure>
+                        <img src="images/adventure-1.jpg" alt="Rafting company trip 3" width="350" />
+                        <figcaption>
+                            Hot South rafting
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="trips-content item-3 p-20 mb-25">    
+                    <div class="p-20">
+                        <h4>Discover Ambanja north Salmon safari</h4>
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam vulputate diam vitae eros scelerisque, vel finibus massa venenatis. Sed venenatis, 
+                            lacus eu porta aliquam
+                            <br><br>
+                            <a href="contact.html" class="btn btn-primary btn-border mt-50">Book trip</a>
+                        </p>    
+                    </div>   
+                    <figure>
+                        <img src="images/adventure-5.jpg" alt="Rafting company about us" width="350" />
+                        <figcaption>
+                            Ambanja north Salmon safari
+                        </figcaption>
+                    </figure>
+                </div>
+                
             </section>
 
-            <section class="trip-list">
-
+            <section class="trip-list w-960">
+                <h2>Trip summary</h2>
+                <table class="trips-table p-20 mb-25">
+                    <thead>
+                        <tr>
+                            <th>Trip description</th>
+                            <th>Trip length</th>
+                            <th>Cost</th>
+                            <th>Activities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ambanja north Salmon safari</td>
+                            <td>2 days / 3 days / 7 days</td>
+                            <td>$1150 - $1500</td>
+                            <td>High adventures rafting, luxury camping</td>
+                        </tr>
+                        <tr>
+                            <td>Hot South rafting</td>
+                            <td>3 days / 7 days</td>
+                            <td>$1000 - $1750</td>
+                            <td>High adventures rafting, Group camping</td>
+                        </tr>
+                        <tr>
+                            <td>Mountain hike rafting</td>
+                            <td>2 days / 5 days</td>
+                            <td>$750 - $1500</td>
+                            <td>High adventures rafting, Group camping</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
             
         </main>
-        <footer class="mt-50">
-            <p>©2024 🌴 Rafting Site plan 🌴 Mickael Randriamihaja 🌴 WDD 130</p>
-            <nav>
-                <ul class="social-links">
-                    <li>
-                        <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook" width="32" /></a>             
-                    </li>
-                    <li>
-                        <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter" width="32" /></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com"><img src="images/instagram.svg" alt="Facebook" width="32" /></a>
-                    </li>
-                </ul>
-            </nav>
+        <footer>
+            <div class="w-960 prelinks p-20">
+                <a href="index.html">Home</a> | 
+                <a href="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-home.png" target="_blank">Wireframe home page</a> | 
+                <a href="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-aboutus-update.png">Wireframe About Us</a> | 
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="container w-960 border-light">
+                <p>©2024 🌴 Rafting Site plan 🌴 Mickael Randriamihaja 🌴 WDD 130</p>
+                <nav>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" width="32" /></a>             
+                        </li>
+                        <li>
+                            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" width="32" /></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com"><img src="images/instagram.png" alt="Facebook" width="32" /></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
         
     </body>

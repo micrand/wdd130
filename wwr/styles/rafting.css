@@ -6,13 +6,18 @@
     --accent1-color: #FCF300;
     --accent2-color: #FFC600;
 
-    --heading-font: "Montserrat", sans-serif;
+    --heading-font: "Rubik", sans-serif;
     --paragraph-font: "Montserrat", sans-serif;
 
     --nav-background-color: #072AC8;
     --nav-link-color: #FFFFFF;
     --hav-hover-link-color: #FCF300;
     --nav-hover-background-color: #1E96FC;
+
+    --text-color-white: #FFFFFF;
+    --bg-color-black: #000000;
+    --bg-color-white: #FFFFFF;
+    --bg-light-grey: #EFEFEF;
 }
 * {
     padding:0;
@@ -34,6 +39,9 @@ h2 {
 li {
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
 .bg-primary {
     background:var(--primary-color)
 }
@@ -52,6 +60,12 @@ li {
 .p-20 {
     padding: 20px;
 }
+.pt-20 {
+    padding-top:20px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
 .pb-20 {
     padding-bottom: 20px;
 }
@@ -65,7 +79,7 @@ li {
     margin-top: 20px;
 }
 .mt-50 {
-    margin-top:50px;
+    margin-top:50px !important;
 }
 .mb-25 {
     margin-bottom:25px;
@@ -73,16 +87,40 @@ li {
 .text-right {
     float:right;
 }
+.text-center {
+    text-align: center;
+}
 .w-960 {
     max-width: 960px;
     margin: 0 auto;  
 }
+.btn {
+    background-color: var(--nav-background-color);
+    color:var(--nav-link-color);
+    padding: 10px 25px;
+    border: 1px solid var(--nav-background-color);
+}
+.btn-border {
+    border-radius: 25px;
+}
+.relative {
+    position: relative;
+}
+.z-1 {
+    z-index: 1;
+}
+.z-10 {
+    z-index: 1000!important;
+}
 header {
+    position: relative;
+    z-index:1;
     display: grid;
     grid-template-columns: 320px 2fr;
     align-items: center;   
     padding: 25px 0 25px 0;
 }
+
 header h1 {
     font-size: 1.75rem;
 }
@@ -109,36 +147,28 @@ header img {
 .navigation a:hover {   
     background-color: var(--nav-hover-background-color);
 }
-/* .orange {
-    color: var(--accent2-color);
-} */
 .hero {        
-    margin-top: 50px;
-}
-.hero a {   
-    text-decoration: none;
-}
-.hero p {
-    padding: 10px;
+    position:relative;
+    z-index: 0;
+    margin-top: -240px;
+    max-height: 840px;
 }
 .hero h1 {
-    position: relative;
+    color: var(--nav-link-color);
+    font-size: 4rem;
+    position:relative;
+    bottom: -240px;
     text-align: center;
-    margin-bottom: -80px;
-    color:#000000;
 }
 .hero img {
     display: block;
     width: 100%;
-    height: 512px;    
+    height: 748px;    
     background-size: cover;
-}
-.hero figcaption a {
-    color:#FFFFFF;
 }
 .hero figcaption {
     position: relative;
-    top: -240px;
+    top: -380px;
     text-align: center;    
     width: 50%;
     margin: 0 auto;
@@ -146,13 +176,20 @@ header img {
     color:#FFFFFF;
     padding: 25px 35px;
 }
-.hero article {      
+.hero figcaption a {
+    color:#FFFFFF;
 }
 
-.history {
+/* ABOUT US */
+.history-content {
+    display: grid;
+    position: relative;
+    z-index: inherit;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid var(--secondary-color);
     padding: 10px 20px;
 }
+
 .adventure .gallery, .employee .gallery {
     display: flex;
 }
@@ -162,7 +199,117 @@ header img {
 .gallery figure img {
     width: 100%;
 }
+/* HOME */
+.home .hero h1 {
+    color:var(--primary-color)
+}
+.home-cta {
+    display: flex;    
+    background-color: var(--bg-color-white);
+}
+.home-cta a {
+    display: block;
+}
+.home-cta div {
+    flex:2 100px;
+    text-align: left;
+}
+.home-trips {   
+    background: var(--bg-color-black);
+}
+.home-trips h2 {
+    color: var(--text-color-white);
+    font-size: 2.5rem;
+}
+.home-trips p {
+    text-align: center;
+    color: var(--text-color-white);
+}
+.grid-2 {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.grid-2 div img {    
+    box-shadow: 3px 1px #CDCDCD ;
+}
+.grid-2 div:nth-child(2) {
+    border: 1px solid var(--bg-light-grey);
+    margin: 25px 25px 35px 25px;
+    margin-left: -150px;       
+}
+.grid-2 div div h4 {
+    color:var(--accent1-color);
+}
+.grid-2 div div {
+    color: var(--secondary-color);
+    margin: 35px 25px;
+    padding: 50px 25px; 
+    background-color: var(--bg-color-black);
+}
+.bloc-appeal {
+
+}
+
+.trip-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.trip-gallery img {
+    max-width:275px;
+}
+
+.newsletter-container {
+    background: var(--bg-light-grey);
+    min-height: 150px;
+}
+.newsletter-container p {
+    text-align: center;
+}
+.form-newsletter {
+    width: 575px;
+    margin: 0 auto;
+    background: var(--bg-light-grey);
+    text-align: center;
+}
+.form-input {
+    border:1px solid #CDCDCD;
+    padding:10px 25px;
+}
+
+/* TRIPS PAGE */
+.trips-content {
+    display: grid;
+    position: relative;
+    z-index: inherit;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid var(--secondary-color);
+    padding: 10px 20px;
+}
+.trips-content figcaption {
+    background-color: var(--bg-light-grey);
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+}
+.trips-table {
+    background-color: var(--nav-background-color);
+    color: var(--bg-color-white);
+    width: 100%;
+}
+.trips-table td, .trips-table th {
+    padding: 5px 10px;
+    border-top:1px solid var(--text-color-white);
+}
+
+/* ABOUT US */
+.gallery figcaption {
+    text-align: center;
+}
 /* CONTACT INFORMATION */
+.home h1, .contact h1, .about h1 {
+    text-align: center;
+    color:var(--primary-color);
+}
 .contact-information {
     display:flex;
 }
@@ -185,22 +332,31 @@ fieldset {
 legend {
     padding: 5px 10px;
 }
-.btn {
-    background-color: var(--nav-background-color);
-    color:var(--nav-link-color);
-    padding: 10px 25px;
-    border: 1px solid var(--nav-background-color);
-}
 .company-info h2 {
     border-bottom:1px solid var(--nav-background-color);
 }
 .map {
     border:0;
+    width: 100%;
 }
 /* FOOTER */
 footer {
+    padding: 50px 25px;
+    color: var(--text-color-white);
+    background-color: var(--bg-color-black);
+}
+footer .container {
     display:grid;
     grid-template-columns: 3fr 1fr;
+}
+footer .prelinks, footer .prelinks a {
+    text-align: center;
+    color:var(--nav-link-color);    
+}
+footer .border-light {
+    border-top:1px solid var(--nav-link-color);
+    padding-top:15px;
+    padding-bottom:15px;
 }
 footer .social-links {
     display:flex;    

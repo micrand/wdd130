@@ -15,11 +15,10 @@
         
     </head>
     <body>
-        <header>
-            
-            <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/rafinglogo.png" alt="Rafting Site logo" />
-            <h1><span class="orange">B</span>lue <span class="orange">O</span>range <span class="orange">R</span>afting company</h1>
-            
+        <header class="w-960">
+            <a href="index.html">
+                <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/rafinglogo.png" alt="Rafting Site logo" />
+            </a>
             <nav>
                 <ul class="navigation">
                     <li>
@@ -37,10 +36,34 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            
-            <section class="contact-information mt-50">
-                <div class="contact-form">
+        <main class="contact">
+            <div class="hero">                
+                <article>
+                    <h1>Blue Water Rafting - Contact page</h1>
+                    <figure>
+                        <img src="images/blue-water-rafting-2.jpeg" alt="Blue water Rafting Contact" />
+                        <figcaption>
+                            Feel free to contact Blue Water Company, Be happy and explore new adventures on water with us.
+
+                            <div class="home-cta z-10 p-20 mt-50">
+                                <div>
+                                    <h3>Happy client be happy with<br> Water lorem ipsum dolor</h3>
+                                </div>
+                                <div>
+                                    <a href="#contact-form" class="btn btn-primary btn-border relative text-center">
+                                        Contact us for details!
+                                    </a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    
+                </article>                
+            </div>
+            <section class="contact-information mt-50 w-960">
+                
+                <div class="contact-form" id="contact-form">
+
                     <form>
                         <fieldset class="p-20">
                             <legend>Contact Us form</legend>
@@ -95,7 +118,8 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7547.757685288192!2d47.47724216267545!3d-18.936756197048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1711766015659!5m2!1sfr!2smg" width="940" height="450" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
-            <section class="employee mt-50">
+
+            <section class="employee mt-50 w-960">
                 <h2>Employee profile image</h2>
                 <p>Our employees are ready to give you satisfaction all along your activities</p>
                 <div class="gallery">
@@ -107,21 +131,29 @@
                 </div>
             </section>
         </main>
-        <footer class="mt-50">
-            <p>©2024 🌴 Rafting Site plan 🌴 Mickael Randriamihaja 🌴 WDD 130</p>
-            <nav>
-                <ul class="social-links">
-                    <li>
-                        <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook" width="32" /></a>             
-                    </li>
-                    <li>
-                        <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter" width="32" /></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com"><img src="images/instagram.svg" alt="Facebook" width="32" /></a>
-                    </li>
-                </ul>
-            </nav>
+        <footer>
+            <div class="w-960 prelinks p-20">
+                <a href="index.html">Home</a> | 
+                <a href="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-home.png" target="_blank">Wireframe home page</a> | 
+                <a href="https://byui-cse.github.io/wdd130-ww-course/images/wwr/wwr-wireframe-aboutus-update.png">Wireframe About Us</a> | 
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="container w-960 border-light">
+                <p>©2024 🌴 Rafting Site plan 🌴 Mickael Randriamihaja 🌴 WDD 130</p>
+                <nav>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" width="32" /></a>             
+                        </li>
+                        <li>
+                            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" width="32" /></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com"><img src="images/instagram.png" alt="Facebook" width="32" /></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
         
     </body>
