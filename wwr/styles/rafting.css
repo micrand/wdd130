@@ -106,8 +106,7 @@ header img {
     text-decoration: none;
     text-align: center;
 }
-.navigation a:hover {
-    color:var(--accent2-color);
+.navigation a:hover {   
     background-color: var(--nav-hover-background-color);
 }
 /* .orange {
